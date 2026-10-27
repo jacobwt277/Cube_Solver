@@ -107,7 +107,7 @@ def F2Lnumsolved(scramble: list):#Checks how many stickers are solved
 
 def F2Lsquisher(moves: tuple):
     sol = []
-    for l in bcp.Moves:
+    for l in moves:
         if l == bcp.R:
             sol.append("R")
             endmove = "Ri"
@@ -520,4 +520,4 @@ def CFOP2LookSolver(moves):
     return Sol
 
 
-print(CFOP2LookSolver("R L F B D Fi Bi L2 R2 D2 U2 R Ui Ri U2 B F2 Li"))
+print(CFOP2LookSolver("Ri U2 R2 F2 D2 L2 B2 U2 R2 F2 D2 L2 B2 U2 R2 F2 D2 L2 B2 U2 R2 F2 D2 L2 B2"))
