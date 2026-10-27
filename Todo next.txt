@@ -1,0 +1,3 @@
+-Instead of hard coding the algorithms like in the 2 look CFOP solver, there should be a program that can take in an algorithm as a text file, and the solvers should pull algorithms from these.
+-More methods should be added, like Roux and full CFOP. Will be easier after doing the above. 
+-Should add an additional pass before the output that deletes unnecessary moves (like U followed by Ui).
