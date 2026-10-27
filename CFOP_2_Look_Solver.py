@@ -521,3 +521,8 @@ def CFOP2LookSolver(moves):
 
 
 print(CFOP2LookSolver("Ri U2 R2 F2 D2 L2 B2 U2 R2 F2 D2 L2 B2 U2 R2 F2 D2 L2 B2 U2 R2 F2 D2 L2 B2"))
+
+
+#The input string is the scramble, formatted as above. The output is a list of moves that solves the cube.
+#R means turn the right face 90 degrees clockwise, L means turn the left face 90 degrees clockwise, etc. for U top face, D bottom face, F front face, and B back face. 
+# i after a letter means turn 90 degrees counterclockwise instead, and 2 after a letter means turn 180 degrees.
